@@ -30,10 +30,9 @@ clippy.lint_groups_priority = "allow"
 
 [dependencies]
 # eth
-alloy-sol-types = "0.7.2"
-alloy-primitives = "0.7.2"
-alloy-rpc-types = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b93" }
-alloy-rpc-types-trace = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b93" }
+alloy-sol-types = "0.7"
+alloy-primitives = "0.7"
+alloy-rpc-types = { version = "0.1", features = ["eth", "trace"] }
 revm = { git = "https://github.com/bluealloy/revm", rev = "560b953", default-features = false, features = [
     "std",
 ] }
