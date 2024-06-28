@@ -34,7 +34,7 @@ alloy-sol-types = "0.7.2"
 alloy-primitives = "0.7.2"
 alloy-rpc-types = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b93" }
 alloy-rpc-types-trace = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b93" }
-revm = { git = "https://github.com/bluealloy/revm", rev = "2bcb461", default-features = false, features = [
+revm = { git = "https://github.com/bluealloy/revm", rev = "560b953", default-features = false, features = [
     "std",
 ] }
 
